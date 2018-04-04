@@ -1,5 +1,3 @@
-# UEC301.github.io
-UEC301 Analog Electronics Website for Thapar
+# UEC301 Analog Electronics
 
-##Maintenance Break
-Checkout in an hour.
+Report Errors at kmanadkat@gmail.com.
