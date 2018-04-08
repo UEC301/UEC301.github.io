@@ -86,10 +86,27 @@ h2 {
     }
 }
 
-section.uec-section {
+.section-1.uec-section {
     border-bottom: 1px solid #dee2e6;
     padding-top: 5rem!important;
-    padding-bottom: 5rem!important
+    padding-bottom: 5rem!important;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/factory.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.ament-container{
+	background-color: rgba(255, 255, 255, 0.96);
+	padding: 2% 3% 2% 3%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+}
+.ament-container h1,
+.ament-container li,
+.ament-container p{
+	font-weight: 600;
 }
 
 section.uec-section .uec-tem .uec-date {
