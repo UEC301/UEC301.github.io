@@ -92,7 +92,8 @@ h2 {
     border-bottom: 1px solid #dee2e6;
     padding-top: 5rem!important;
     padding-bottom: 5rem!important;
-	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/background.png);
+	background-image: url(../img/background.png);
+    background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -134,7 +135,7 @@ section.uec-section .uec-tem .uec-date {
     background-color: #2c3e50!important
 }
 
-.text-primary {
+.text-orange {
     color: #ffeaa7!important
 }
 
