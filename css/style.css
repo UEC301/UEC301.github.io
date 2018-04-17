@@ -199,26 +199,6 @@ body {
 
 @media (max-width: 500px){
 	
-/* HANDOUT FONT-SIZE SETTINGS */
-	.handout .container h3{
-		font-size: 1.1rem;
-		font-weight: 700;
-	}
-	
-	.handout .container{
-		padding: 1.3rem;
-		line-height: 1.3rem
-	}
-	
-	.handout .container li{
-		margin-bottom: 0.5rem;
-		font-size: 0.9rem;
-	}
-	
-	h2{
-		font-size: 1.7rem;
-	}
-	
 /* CAROUSEL SETTINGS */
 	
   .carousel-caption {
@@ -239,6 +219,44 @@ body {
     line-height: 1;
   }
 	
+/* HANDOUT FONT-SIZE SETTINGS */
+	.handout .container h3{
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+	
+	.handout .container{
+		padding: 1.3rem;
+		line-height: 1.3rem
+	}
+	
+	.handout .container li{
+		margin-bottom: 0.5rem;
+		font-size: 0.9rem;
+	}
+	
+	h2{
+		font-size: 1.7rem;
+	}
+
+/* MARKS DISTRIBUTION */
+	.table thead th{
+		font-size: 0.9rem;
+	}
+	
+	.table td{
+		font-size: 0.8rem;
+	}
+	
+	.table tbody tr:last-child{
+		font-weight: 700;
+	}
+	
+	.table thead th:first-child,
+	.table tbody th,
+	.table tbody tr td:first-child{
+		display: none;
+	}
 /* CARD-BODY SETTINGS */
 	
 	.card .h4{
