@@ -49,7 +49,7 @@ body {
 
 .carousel {
   height: 100%;
-  background: linear-gradient(135deg, rgba(114,50,175,0.7) 0%, rgb(75, 115, 178,0.7) 47%, rgba(36,182,180,0.7) 100%), url(../img/background.jpg);
+  background: linear-gradient(135deg, rgba(114,50,175,0.7) 0%, rgba(75,115,178,0.7) 47%, rgba(36,182,180,0.7) 100%), url('../img/background.jpg');
   background-repeat: none;
   background-size: cover;
   background-position: center;
