@@ -6,8 +6,13 @@ $(document).ready(function(){
     });
 
     $('#myCarousel').carousel({
-pause: true,
-interval: false
-});
-
+		pause: true,
+		interval: false
+	});
+	
+// COLLAPSE NAVBAR AUTOMATICALLY AFTER CLICK
+	
+	$('.navbar a').click(function(){
+		$('.navbar-collapse').collapse('hide');
+	});
 });
