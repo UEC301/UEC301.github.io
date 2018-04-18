@@ -26,14 +26,14 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top">
-            <a class="navbar-brand" href="#myCarousel">UEC301 <i class="ml-1 fas fa-pencil-alt"></i></a>
+            <a class="navbar-brand" href="#hero">UEC301 <i class="ml-1 fas fa-pencil-alt"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto text-uppercase">
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#myCarousel">Announcements</a>
+                        <a class="nav-link" href="#announce">Announcements</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#handout">Handout</a>
@@ -52,43 +52,60 @@
         </nav>
     </header>
     <main role="main">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container">
-                         <div class="carousel-caption text-left">
-                            <h2>Recent Uploads</h2>
-                            <h5>Marks Distribtution Section</h5>
-                            <p><a class="btn btn btn-light" href="#marks" role="button">Browse</a></p>
-                        </div>                       
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="carousel-caption text-center">
-                            <h2>Schedule For Checking MST Evaluated Sheets</h2>
-                            <h3 class="lead">Date: April 3, 2018 &nbsp; Room Number: B208</h3>
-                            <li>Dr Sanjay Kumar's lecture groups: 5:00 pm</li>
-                            <li>Dr Hardeep Singh's lecture groups: 5:30 pm</li>
-                            <li>Dr Hemdutt Joshi's lecture groups: 6:00 pm</li>
-                            <li>Dr Vinay Kumar's lecture groups: 6:30 pm</li>
-                        </div>
-
+        <section class="bg-alt bg-light pt-5 pb-5" id="hero">
+            <div class="container">
+                <div class="row mt-3 align-items-center">
+                    <div class="col-md-6 text-left pl-5">
+                        <h1 class="display-4 text-light">UEC301</h1>
+                        <p class="h1 text-light">Analog Electronics</p>
+                        <p class="mx-auto mt-3"><a href="#announce"><button type="button" class="btn btn-sm btn-outline-light">Announcements <i class="fas fa-angle-double-down"></i></button></a></p>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        </section>
+        <div class="album pt-5 pb-5 bg-light" id="announce">
+            <div class="container">
+                <h2 class="text-center mb-5">Announcements<i class="ml-1 fas fa-bullhorn"></i></h2>
+                <div class="row">
+                   <div class="col-lg-4 col-md-6">
+                        <div class="card mb-3 box-shadow">
+                            <div class="card-body">
+                                <p class="h5 bg-light text-dark p-2 text-center">April 18, 2018 <i class="far fa-calendar-alt"></i></p>
+                                <p class="text-primary h5 pb-1 text-center">Quize Date</p><hr class="hr-resp">
+                                <p class="card-text">
+                                	<li>Quiz will be held on 2 May, 5 pm, 2nd Floor B block.</li>
+                           		</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card mb-3 box-shadow">
+                            <div class="card-body">
+                                <p class="h5 bg-light text-dark p-2 text-center">April 17, 2018 <i class="far fa-calendar-alt"></i></p>
+                                <p class="text-primary h5 pb-1 text-center">Recent Uploads</p><hr class="hr-resp">
+                                <p class="card-text mt-2">
+                                	<li>Marks Distribtution Section </li>
+                                	<li class="mt-4"><button type="button" class="btn btn-sm btn-dark">Browse <i class="fas fa-search"></i></button></li>
+                           		</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card mb-3 box-shadow">
+                            <div class="card-body">
+                                <p class="h5 bg-light text-dark p-2 text-center">April 3, 2018 <i class="far fa-calendar-alt"></i></p>
+                                <p class="text-primary h5 pb-1 text-center">Schedule For Checking MST Evaluated Sheets</p><hr class="hr-resp">
+                                <p class="card-text">
+                                	<li>Dr Sanjay Kumar's lecture groups: 5:00 pm</li>
+									<li>Dr Hardeep Singh's lecture groups: 5:30 pm</li>
+									<li>Dr Hemdutt Joshi's lecture groups: 6:00 pm</li>
+									<li>Dr Vinay Kumar's lecture groups: 6:30 pm</li>
+                           		</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <section class="handout py-5" id="handout">
             <h2 class="mb-5 text-center ">Course Handout <i class=" ml-1 fas fa-graduation-cap"></i></h2>
@@ -147,28 +164,28 @@
 					  <th scope="col">Marks <i class="ml-1 far fa-chart-bar fa-lg"></i></th>
 					</tr>
 				  </thead>
-				  <tbody>
-					<tr class="text-success">
+				  <tbody class="text-success">
+					<tr>
 					  <th scope="row">1</th>
 					  <td>LAB</td>
 					  <td>15</td>
 					</tr>
-					<tr class="text-info">
+					<tr>
 					  <th scope="row">2</th>
 					  <td>QUIZ</td>
 					  <td>20</td>
 					</tr>
-					<tr class="text-success">
+					<tr>
 					  <th scope="row">3</th>
 					  <td>TUT</td>
 					  <td>05</td>
 					</tr>
-					<tr class="text-info">
+					<tr>
 					  <th scope="row">4</th>
 					  <td>MST</td>
 					  <td>24</td>
 					</tr>
-					<tr class="text-success">
+					<tr>
 					  <th scope="row">5</th>
 					  <td>EST</td>
 					  <td>36</td>
@@ -428,9 +445,9 @@
                 </div>
                 <div class="row text-center mt-4 report-container">
                     <div class="col-md-6 py-3">
-                        <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Thapar%20University%2C%20Adarsh%20Nagar%2C%20Prem%20Nagar%2C%20Patiala%2C%20Punjab%2C%20India&key=AIzaSyC_n7LEJBCqD36PiljAmsPFeKgGWYpnilc" allowfullscreen></iframe>
+                        <img width="100%" height="100%" src="img/report.png">
                     </div>
-                    <div class="col-md-6 pt-3">
+                    <div class="col-md-6 pt-3 my-auto">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="form-group">
@@ -451,8 +468,8 @@
     </main>
     <footer class="uec-footer bg-dark">
         <p>
-        	<a href="#myCarousel" class="btn btn-light" style="font-size: 16px;">Back to top</a> <i class="mx-2 fas fa-arrows-alt-h"></i>
-			<a href="oldwebsite/index.html" class="btn btn-light" style="font-size: 16px;">Old Site</a>
+        	<a href="#myCarousel" class="btn btn-sm btn-light" style="font-size: 16px;">Back to top</a> <i class="mx-2 fas fa-arrows-alt-h"></i>
+			<a href="oldwebsite/index.html" class="btn btn-sm btn-light" style="font-size: 16px;">Old Site</a>
         </p>
         <p class="text-light">Website Developed by Krupesh&nbsp;Anadkat - B.E. ENC Student</p>
     </footer>
