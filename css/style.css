@@ -10,7 +10,7 @@ h2{
 /* NAVBAR MODIFICATIONS
 -------------------------------------------------- */
 .navbar{
-	background-color: rgba(255,255,255,0);
+	background-color: rgba(0,0,0,0.2);
 	transition: all 0.3s;
 }
 
@@ -35,7 +35,7 @@ h2{
 }
 
 .navbar-toggler {
-	background-color: #fff;
+	background-color: rgba(248, 249, 250, 0.85);
 	font-size: 0.8rem;
 }
 
@@ -246,7 +246,6 @@ section#hero {
 -------------------------------------------------- */
 
 @media (max-width: 500px){
-	
 	
 /* HERO SETTINGS */
 	
