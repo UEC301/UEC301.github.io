@@ -5,6 +5,7 @@ $(document).ready(function(){
 	$('.navbar').removeClass('navbar-bg-light');
 	$('.nav-link').addClass('bg-light-link');
 	$('.navbar-brand').addClass('bg-light-brand');
+	$('.ac1').addClass('visible-none');
 	
 // SCROLLING EFFECT
 	
@@ -39,6 +40,26 @@ $(document).ready(function(){
 			  $('.navbar-brand').addClass('bg-light-brand');
 		  }
         });
+	
+	
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+	
+	  $(window).scroll(function() {
+        $('.scroll-animations .animated').each(function() {
+		  if (isScrolledIntoView(this) === true) {
+			$(this).removeClass('visible-none');
+			$(this).addClass('fadeIn');
+		  }
+		});
+	  });
 	
 });
 

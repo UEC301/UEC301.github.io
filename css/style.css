@@ -7,6 +7,11 @@ h2{
 	font-family: 'Vibur', cursive;
 }
 
+.visible-none{
+	visibility: hidden;
+}
+
+
 /* NAVBAR MODIFICATIONS
 -------------------------------------------------- */
 .navbar{
@@ -76,6 +81,10 @@ h2{
 
 /* HERO SECTION
 -------------------------------------------------- */
+#hero button.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
 
 section#hero {
   background-image: url('../img/hero.png'),linear-gradient(128deg, rgba(12,7,99,1) 0%, rgba(73,73,204,1) 42%, rgba(2,159,191,1) 100%);
@@ -91,14 +100,16 @@ section#hero {
 }
 
 
-
-
 /* ANNOUNCEMENT SECTION
 -------------------------------------------------- */
 
 #announce li {
 	list-style: none;
-	margin-bottom: 0.2rem;
+	margin-bottom: 0rem;
+}
+
+#announce p.text-primary{
+	font-size: 1.2rem;
 }
 
 /* HANDOUT SECTION
