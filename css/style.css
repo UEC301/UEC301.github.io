@@ -7,10 +7,6 @@ h2{
 	font-family: 'Vibur', cursive;
 }
 
-.visible-none{
-	visibility: hidden;
-}
-
 
 /* NAVBAR MODIFICATIONS
 -------------------------------------------------- */
@@ -18,32 +14,6 @@ h2{
 	background-color: rgba(0,0,0,0.2);
 	transition: all 0.3s;
 }
-
-.navbar-bg-light{
-	background-color: #fff;
-	box-shadow: 0 2px 10px -1px rgba(0,0,0,0.2), 0 2px 20px -1px rgba(0,0,0,0.19);
-	transition: all 0.3s;
-}
-
-.bg-light-link{
-	font-size: 0.9rem;
-	font-weight: 700;
-	color:#f8f9fa!important;
-	transition: all 0.3s;
-}
-
-.bg-light-brand{
-	font-size: 1.1rem;
-	font-weight: 700;
-	color:#f8f9fa!important;
-	transition: all 0.3s;
-}
-
-.navbar-toggler {
-	background-color: rgba(248, 249, 250, 0.85);
-	font-size: 0.8rem;
-}
-
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:focus,
@@ -76,6 +46,34 @@ h2{
 	font-size: 0.9rem;
 	font-weight: 700;
 	color: rgb(16, 119, 40);
+}
+
+
+/* SCROLLING ANIMATED NAVBAR PROPERTIES */
+
+.navbar-bg-light{
+	background-color: #fff;
+	box-shadow: 0 2px 10px -1px rgba(0,0,0,0.2), 0 2px 20px -1px rgba(0,0,0,0.19);
+	transition: all 0.3s;
+}
+
+.bg-light-link{
+	font-size: 0.9rem;
+	font-weight: 700;
+	color:#f8f9fa!important;
+	transition: all 0.3s;
+}
+
+.bg-light-brand{
+	font-size: 1.1rem;
+	font-weight: 700;
+	color:#f8f9fa!important;
+	transition: all 0.3s;
+}
+
+.navbar-toggler {
+	background-color: rgba(248, 249, 250, 0.85);
+	font-size: 0.8rem;
 }
 
 
@@ -194,6 +192,13 @@ section#hero {
 }
 .uec-footer p:last-child {
   margin-bottom: 0;
+}
+
+
+/* ANIMATION INITIAL VISIBILITY SET "HIDDEN"
+-------------------------------------------------- */
+.visible-none{
+	visibility: hidden;
 }
 
 

@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('.navbar-brand').addClass('bg-light-brand');
 	$('.ac1').addClass('visible-none');
 	
-// SCROLLING EFFECT
+// ON CLICK NAVLINKS SCROLLING EFFECT
 	
     $('body').plusAnchor({
         easing: 'easeInOutExpo',
@@ -42,6 +42,8 @@ $(document).ready(function(){
         });
 	
 	
+// CHECK IF ELEMENT IS IN VIEWPORT ?
+	
 function isScrolledIntoView(elem) {
     var docViewTop = $(window).scrollTop();
     var docViewBottom = docViewTop + $(window).height();
@@ -51,6 +53,9 @@ function isScrolledIntoView(elem) {
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
   }
+
+	
+// ADD FADE-IN CLASSES WHEN ELEMENT IS IN VIEWPORT
 	
 	  $(window).scroll(function() {
         $('.scroll-animations .animated').each(function() {
@@ -59,6 +64,44 @@ function isScrolledIntoView(elem) {
 			$(this).addClass('fadeIn');
 		  }
 		});
+	  });
+	
+// ADD SLIDE-RIGHT & SLIDE-LEFT CLASSES WHEN ELEMENT IS IN VIEWPORT
+	
+	$(window).scroll(function() {
+        $('.scroll-animations .animate-right').each(function() {
+		  if (isScrolledIntoView(this) === true) {
+			$(this).removeClass('visible-none');
+			$(this).addClass('slideInRight');
+		  }
+		});
+		
+		$('.scroll-animations .animate-left').each(function() {
+		  if (isScrolledIntoView(this) === true) {
+			$(this).removeClass('visible-none');
+			$(this).addClass('slideInLeft');
+		  }
+		});
+		
+	  });
+	
+// ADD BOUNCE-LEFT & BOUNCE-RIGHT CLASSES WHEN ELEMENT IS IN VIEWPORT
+	
+	$(window).scroll(function() {
+        $('.scroll-animations .animate-bleft').each(function() {
+		  if (isScrolledIntoView(this) === true) {
+			$(this).removeClass('visible-none');
+			$(this).addClass('bounceInLeft');
+		  }
+		});
+		
+		 $('.scroll-animations .animate-bright').each(function() {
+		  if (isScrolledIntoView(this) === true) {
+			$(this).removeClass('visible-none');
+			$(this).addClass('bounceInRight');
+		  }
+		});
+		
 	  });
 	
 });
