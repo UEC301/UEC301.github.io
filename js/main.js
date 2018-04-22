@@ -74,16 +74,17 @@ function isScrolledIntoView(elem) {
 			$(this).removeClass('visible-none');
 			$(this).addClass('slideInRight');
 		  }
-		});
-		
+		});		
+	  });
+	
+	$(window).scroll(function() {
 		$('.scroll-animations .animate-left').each(function() {
 		  if (isScrolledIntoView(this) === true) {
 			$(this).removeClass('visible-none');
 			$(this).addClass('slideInLeft');
 		  }
 		});
-		
-	  });
+	});
 	
 // ADD BOUNCE-LEFT & BOUNCE-RIGHT CLASSES WHEN ELEMENT IS IN VIEWPORT
 	
@@ -94,15 +95,15 @@ function isScrolledIntoView(elem) {
 			$(this).addClass('bounceInLeft');
 		  }
 		});
-		
-		 $('.scroll-animations .animate-bright').each(function() {
+	  });
+	
+	$(window).scroll(function() {
+	    $('.scroll-animations .animate-bright').each(function() {
 		  if (isScrolledIntoView(this) === true) {
 			$(this).removeClass('visible-none');
 			$(this).addClass('bounceInRight');
 		  }
 		});
-		
 	  });
-	
 });
 
