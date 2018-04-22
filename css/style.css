@@ -85,9 +85,10 @@ h2{
 }
 
 section#hero {
-  background-image: url('../img/hero.png'),linear-gradient(128deg, rgba(12,7,99,1) 0%, rgba(73,73,204,1) 42%, rgba(2,159,191,1) 100%);
-  background-position: center;
-  background-size:cover;
+  background-image: url('../img/hero.jpg');
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0;
   height: 100vh;
