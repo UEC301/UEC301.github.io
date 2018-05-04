@@ -7,6 +7,10 @@ h2{
 	font-family: 'Vibur', cursive;
 }
 
+.text-icon{
+	color: #f39c12;
+}
+
 
 /* NAVBAR MODIFICATIONS
 -------------------------------------------------- */
@@ -132,17 +136,31 @@ section#hero {
 
 
 
+/* Resource SECTION
+-------------------------------------------------- */
+
+.card-body.resource-card{
+	position: relative;
+	min-height: 0;
+	cursor: default;
+}
+
+.card { transition: all 0.5s; }
+.card:hover{
+  box-shadow: 0 1px 15px -1px rgba(182, 1, 248, 0.2), 0 1px 15px -1px rgba(20, 48, 203, 0.19);
+}
+
+.card-img-top{
+	height: 10rem
+}
+
+
 /* TUTORIAL SECTION
 -------------------------------------------------- */
 .card-body{
   position: relative;
   min-height: 269px;
-  transition: all 0.5s;
   cursor: default;
-}
-
-.card-body:hover{
-  box-shadow: 0 1px 15px -1px rgba(182, 1, 248, 0.2), 0 1px 15px -1px rgba(20, 48, 203, 0.19);
 }
 
 .card-foot .btn{
