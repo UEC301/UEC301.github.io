@@ -24,7 +24,7 @@ h2{
 -------------------------------------------------- */
 .navbar{
 	background-color: rgba(0,0,0,0.2);
-	transition: all 0.3s;
+	transition: all 0.1s linear;
 }
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:focus,
