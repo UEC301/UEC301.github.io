@@ -204,6 +204,9 @@ footer a:active{
 	text-decoration: none;
 	color: #9fa8da;
 }
+.bg-black {
+	background-color: #040406;
+}
 
 
 /* ANIMATION INITIAL VISIBILITY SET "HIDDEN"
@@ -660,3 +663,4 @@ footer a:active{
     border-color: #007ee5;
     border:1px solid;
 }
+
