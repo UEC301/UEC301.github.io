@@ -378,7 +378,7 @@ footer a:active{
 }
 .cube-folding span::before {
   content: '';
-  background-color: #007ee5;
+  background-color: #e5003e;
   position: absolute;
   left: 0;
   top: 0;
@@ -403,7 +403,7 @@ footer a:active{
   -moz-animation-delay: 0.3s;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
-  background-color: #34a4ff;
+  background-color: #ff3434;
 }
 .cube-folding .leaf3 {
   -moz-transform: rotateZ(270deg) scale(1.1);
@@ -415,7 +415,7 @@ footer a:active{
   -moz-animation-delay: 0.9s;
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
-  background-color: #83c7ff;
+  background-color: #ff8383;
 }
 .cube-folding .leaf4 {
   -moz-transform: rotateZ(180deg) scale(1.1);
@@ -427,7 +427,7 @@ footer a:active{
   -moz-animation-delay: 0.6s;
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
-  background-color: #5cb6ff;
+  background-color: #ff5c5c;
 }
 
 @-moz-keyframes folding {
@@ -521,7 +521,7 @@ footer a:active{
   font-size: 12px;
   letter-spacing: 0.1em;
   display: block;
-  color: #007ee5;
+  color: #e50000;
   position: relative;
   top: 25px;
   z-index: 2;
